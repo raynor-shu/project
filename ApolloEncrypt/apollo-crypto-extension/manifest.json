@@ -1,0 +1,30 @@
+{
+	"manifest_version" : 3,
+	"name" : "apollo encrypt",
+	"version" : "1.0",
+	"description":"apollo encrypt extension",
+	"icons":
+		{
+			"16":"img/logo.png",
+			"48":"img/logo.png",
+			"128":"img/logo.png"
+		},
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "contextMenus",
+    "sidePanel"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "crypto",
+    "default_icon": {
+			"16":"img/logo.png",
+			"48":"img/logo.png",
+			"128":"img/logo.png"
+		}
+  }
+}
